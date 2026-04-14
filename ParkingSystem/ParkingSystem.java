@@ -13,3 +13,21 @@ abstract class Vehicle {
         this.requiredSpotType = requiredSpotType;
     }
 }
+
+class Car extends Vehicle {
+    Car(String licensePlate) {
+        super(licensePlate, SpotType.MEDIUM);
+    }
+}
+
+class Bike extends Vehicle {
+    Bike(String licensePlate) {
+        super(licensePlate, SpotType.SMALL);
+    }
+}
+
+class Bus extends Vehicle {
+    Bus(String licensePlate) {
+        super(licensePlate, SpotType.LARGE);
+    }
+}
