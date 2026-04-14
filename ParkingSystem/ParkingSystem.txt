@@ -1,10 +1,20 @@
 Functional Requirement
 ------------------------
-
+- Support different vehicle types
+- The parking lot have multiple floors
+- Real time parking
+- Track entry & exit
+- Error handling
 
 Core Entities
 -------------
-
+- ParkingLot
+- ParkingFloor
+- ParkingSpot
+- Vehicle
+- Car, Bike, Bus (inherit from Vehicle)
+- Ticket
+- ParkingAttendent
 
 Core LLD
 --------
