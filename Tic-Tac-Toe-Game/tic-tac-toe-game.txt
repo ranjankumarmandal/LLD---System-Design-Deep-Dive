@@ -6,7 +6,9 @@ Functional Requirement:
 
 Core Entities:
 --------------
-
+- TicTacToe
+- Board
+- Player
 
 Core LLD:
 ---------
