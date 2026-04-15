@@ -11,4 +11,5 @@ Core Entities:
 - Player
 
 Core LLD:
----------
+--------
+Coding
