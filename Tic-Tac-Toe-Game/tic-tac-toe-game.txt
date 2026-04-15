@@ -1,0 +1,12 @@
+Functional Requirement:
+-----------------------
+- The board is standard tic-tac-toe 3 x 3
+- Only human vs human mode
+- Plain java classes
+
+Core Entities:
+--------------
+
+
+Core LLD:
+---------
