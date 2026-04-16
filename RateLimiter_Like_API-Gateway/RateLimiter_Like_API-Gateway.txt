@@ -1,6 +1,8 @@
 Functional Requirement:
 -----------------------
-
+- Rate Limit is per user / key
+- Fixed window size
+- If over the limit, requests are blocked
 
 Core Entities:
 --------------
