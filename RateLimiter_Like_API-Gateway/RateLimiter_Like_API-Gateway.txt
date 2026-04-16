@@ -6,7 +6,9 @@ Functional Requirement:
 
 Core Entities:
 --------------
-
+- RateLimiter
+- (Optional) User or Client
 
 Core LLD:
-----------
+---------
+Coding
