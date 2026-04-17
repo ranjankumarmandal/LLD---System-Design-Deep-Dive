@@ -62,4 +62,10 @@ class NotificationService {
     public void registerChannel(NotificationChannel channel) {
         channels.add(channel);
     }
+
+    public void send(User user, Notification notification) {
+        for (NotificationChannel channel : channels) {
+            channel.sendNotification(user, notification);
+        }
+    }
 }
