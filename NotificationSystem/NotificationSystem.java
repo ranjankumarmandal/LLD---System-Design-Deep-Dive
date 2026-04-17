@@ -27,3 +27,9 @@ class SMSNotificationChannel implements NotificationChannel {
         System.out.println("SMS sent to " + user.getPhone() + ": " + notification.getContent());
     }
 }
+
+class User {
+    private String name;
+    private String email;
+    private String phone;
+}
