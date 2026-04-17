@@ -1,5 +1,8 @@
 Functional Requirement:
 ------------------------
+- Support for multiple types (like email, sms, etc.)
+- A user can receive notifications on multiple channels
+- Delivering immediately
 
 Core Entities:
 ---------------
