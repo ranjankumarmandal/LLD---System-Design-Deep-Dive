@@ -11,3 +11,7 @@ class Notification {
         return content;
     }
 }
+
+interface NotificationChannel {
+    void sendNotification(User user, Notification notification);
+}
