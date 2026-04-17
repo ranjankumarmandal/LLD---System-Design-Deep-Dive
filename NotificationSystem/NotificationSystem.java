@@ -21,3 +21,9 @@ class EmailNotificationChannel implements NotificationChannel {
         System.out.println("Email sent to " + user.getEmail() + ": " + notification.getContent());
     }
 }
+
+class SMSNotificationChannel implements NotificationChannel {
+    public void sendNotification(User user, Notification notification) {
+        System.out.println("SMS sent to " + user.getPhone() + ": " + notification.getContent());
+    }
+}
