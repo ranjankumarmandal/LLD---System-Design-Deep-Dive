@@ -15,3 +15,9 @@ class Notification {
 interface NotificationChannel {
     void sendNotification(User user, Notification notification);
 }
+
+class EmailNotificationChannel implements NotificationChannel {
+    public void sendNotification(User user, Notification notification) {
+        System.out.println("Email sent to " + user.getEmail() + ": " + notification.getContent());
+    }
+}
