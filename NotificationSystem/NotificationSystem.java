@@ -72,5 +72,13 @@ class NotificationService {
 
 public class Main {
     public static void main(String[] args) {
+        User user = new User("Alice", "alice@email.com", "1234567890");
+        Notification notification = new Notification("Welcome to our service!");
+
+        NotificationService service = new NotificationService();
+        service.registerChannel(new EmailNotificationChannel());
+        service.registerChannel(new SMSNotificationChannel());
+
+        service.send(user, notification);
     }
 }
