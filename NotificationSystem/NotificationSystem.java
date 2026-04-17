@@ -51,3 +51,11 @@ class User {
         return name;
     }
 }
+
+class NotificationService {
+    private List<NotificationChannel> channels;
+
+    public NotificationService() {
+        channels = new ArrayList<>();
+    }
+}
