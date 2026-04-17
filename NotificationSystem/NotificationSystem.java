@@ -58,4 +58,8 @@ class NotificationService {
     public NotificationService() {
         channels = new ArrayList<>();
     }
+
+    public void registerChannel(NotificationChannel channel) {
+        channels.add(channel);
+    }
 }
