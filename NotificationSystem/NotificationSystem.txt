@@ -6,6 +6,11 @@ Functional Requirement:
 
 Core Entities:
 ---------------
+- Notification
+- User
+- NotificationService
+- EmailNotification, SMSNotification
+- NotificationFactory
 
 Core LLD:
 ----------
