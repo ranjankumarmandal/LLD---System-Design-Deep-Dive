@@ -5,7 +5,12 @@ Functional Requirements:
 
 Core Entities:
 --------------
-
+- Elevator
+- ElevatorController
+- Request
+- Floor
+- Door
+- Direction (as an enum for UP / DOWN / IDLE)
 
 Core LLD:
 ---------
