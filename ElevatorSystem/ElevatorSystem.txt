@@ -4,3 +4,7 @@ Functional Requirements:
 
 Core Entities:
 --------------
+
+
+Core LLD:
+---------
