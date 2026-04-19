@@ -108,3 +108,17 @@ class ElevatorSystem {
         }
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        ElevatorSystem es = new ElevatorSystem(2, 10);
+        es.handleExternalRequest(5, Direction.UP);
+        es.handleExternalRequest(3, Direction.DOWN);
+        es.handleExternalRequest(7, Direction.UP);
+        es.handleInternalRequest(0, 9);
+
+        for (int i = 0; i < 15; i++) {
+            es.step();
+        }
+    }
+}
