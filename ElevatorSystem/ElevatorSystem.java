@@ -67,3 +67,44 @@ class Elevator {
         }
     }
 }
+
+class ElevatorSystem {
+    List<Elevator> elevators;
+
+    public ElevatorSystem(int numElevators, int numFloors) {
+        elevators = new ArrayList<>();
+        for (int i = 0; i < numElevators; i++) {
+            elevators.add(new Elevator(i, 0));
+        }
+    }
+
+    public void handleExternalRequest(int floor, Direction direction) {
+        Elevator best = null;
+        int minDistance = Integer.MAX_VALUE;
+        for (Elevator e : elevators) {
+            int distance = Math.abs(e.currentFloor - floor);
+            if (e.direction == Direction.IDLE ||
+                    (e.direction == direction && ((direction == Direction.UP && e.currentFloor < floor)
+                            || (direction == Direction.DOWN && e.currentFloor > floor)))) {
+                if (distance < minDistance) {
+                    best = e;
+                    minDistance = distance;
+                }
+            }
+        }
+        if (best == null) best = elevators.get(0);
+        best.addTargetFloor(floor);
+        System.out.println("Assigned external request at floor " + floor + " to elevator " + best.id);
+    }
+
+    public void handleInternalRequest(int elevatorId, int floor) {
+        elevators.get(elevatorId).addTargetFloor(floor);
+        System.out.println("Elevator " + elevatorId + " got internal request to floor " + floor);
+    }
+
+    public void step() {
+        for (Elevator e : elevators) {
+            e.step();
+        }
+    }
+}
