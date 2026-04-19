@@ -1,6 +1,7 @@
 Functional Requirements:
 ------------------------
-
+- The system will support multiple elevators
+- Requests can be made from inside and outside of elevator
 
 Core Entities:
 --------------
