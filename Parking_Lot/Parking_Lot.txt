@@ -1,5 +1,7 @@
 Functional Requirement:
 -----------------------
+- We will support multiple vehicle types
+- The parking lot can have multiple floors
 
 Core Entities:
 --------------
