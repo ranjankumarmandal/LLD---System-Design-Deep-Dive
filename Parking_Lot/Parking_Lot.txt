@@ -5,6 +5,12 @@ Functional Requirement:
 
 Core Entities:
 --------------
+- ParkingLot
+- Floor
+- ParkingSpot
+- Vehicle (and subclasses: Car, Bike, Truck)
+- ParkingTicket
+- (Optional): Entrance / Exit
 
 Core LLD:
 ---------
