@@ -155,3 +155,20 @@ class User {
         return new Request(new Floor(source), new Floor(destination));
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        ElevatorSystem elevatorSystem = new ElevatorSystem(2);
+
+        User user1 = new User(1);
+        User user2 = new User(2);
+
+        Request r1 = user1.createRequest(0, 5);
+        Request r2 = user2.createRequest(3, 1);
+
+        elevatorSystem.handleRequest(r1);
+        elevatorSystem.handleRequest(r2);
+
+        elevatorSystem.processAllRequests();
+    }
+}
