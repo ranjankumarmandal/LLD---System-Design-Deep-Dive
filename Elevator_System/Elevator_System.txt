@@ -5,6 +5,12 @@ Functional Requirement:
 
 Core Entities:
 --------------
+- Elevator
+- ElevatorSystem
+- Request
+- Floor
+- Direction
+- (Optional): User
 
 Core LLD:
 ---------
