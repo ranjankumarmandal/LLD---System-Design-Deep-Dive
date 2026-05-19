@@ -1,5 +1,7 @@
 Functional Requirement:
 -----------------------
+- Support for multiple elevators
+- Basic functionalities
 
 Core Entities:
 --------------
