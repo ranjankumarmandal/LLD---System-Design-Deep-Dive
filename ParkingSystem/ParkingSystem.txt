@@ -16,6 +16,16 @@ Core Entities
 - Ticket
 - ParkingAttendent
 
+Responsibility of Entities:
+---------------------------
+..
+..
+
+Relationships between Entities:
+-------------------------------
+- Is-A relationship
+- Has-A relationship
+
 Core LLD
 --------
 Coding
