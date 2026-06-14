@@ -12,6 +12,16 @@ Core Entities:
 - ParkingTicket
 - (Optional): Entrance / Exit
 
+Responsibility of Entities:
+---------------------------
+--
+--
+
+Relationships between Entities:
+-------------------------------
+- Is-A relationship
+- Has-A relationship
+
 Core LLD:
 ---------
 Coding
