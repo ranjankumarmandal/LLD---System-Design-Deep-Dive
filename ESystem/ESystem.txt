@@ -12,6 +12,16 @@ Core Entities:
 - Door
 - Direction (as an enum for UP / DOWN / IDLE)
 
+Responsibility of Entities:
+---------------------------
+--
+--
+
+Relationships between Entities:
+-------------------------------
+- Is-A relationship
+- Has-A relationship
+
 Core LLD:
 ---------
 Coding
