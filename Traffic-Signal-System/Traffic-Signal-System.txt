@@ -1,5 +1,8 @@
 Functional Requirement:
 -----------------------
+- Single interaction
+- We will include both vehicle and pedestrian signals
+- We'll focus on standard light cycles and leave emergency handling out for now
 
 Core Entities:
 --------------
