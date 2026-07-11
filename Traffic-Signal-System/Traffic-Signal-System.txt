@@ -6,6 +6,13 @@ Functional Requirement:
 
 Core Entities:
 --------------
+- TrafficSignal
+- SignalState
+- Intersection
+- Timer
+- PedestrianSignal
+- Controller
+- Road or Direction
 
 Responsibility of Entities:
 ---------------------------
