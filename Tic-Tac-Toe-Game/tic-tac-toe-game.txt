@@ -19,6 +19,7 @@ Relationships between Entities:
 -------------------------------
 - Is-A relationship
 - Has-A relationship
+- USES-A relationship
 
 Core LLD:
 --------
