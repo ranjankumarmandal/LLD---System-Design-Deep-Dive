@@ -1,5 +1,8 @@
 Functional Requirement:
 -----------------------
+- Riders and drivers will be separate classes but can extend a common User class if needed
+- Skipping payment and rating logic, focusing on booking, matching, and trip management
+- Including support for different cab types to keep it extendable
 
 Core Entities:
 --------------
