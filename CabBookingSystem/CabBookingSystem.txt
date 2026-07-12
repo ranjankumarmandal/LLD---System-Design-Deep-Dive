@@ -6,6 +6,15 @@ Functional Requirement:
 
 Core Entities:
 --------------
+- User
+- Rider
+- Driver
+- Cab
+- Trip
+- Location
+- BookingService
+- CabRepository
+- TripRepository
 
 Responsibility of Entities:
 ---------------------------
