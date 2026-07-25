@@ -6,6 +6,12 @@ Functional Requirement:
 
 Core Entities:
 --------------
+- Book
+- BookCopy
+- User
+- Library
+- Transaction
+- Catalog
 
 Responsibility of Entities:
 ---------------------------
