@@ -1,5 +1,8 @@
 Functional Requirement:
 -----------------------
+- We'll support multiple copies of the same book
+- There can be different roles: members (borrower), librarians (who manage inventory)
+- Implementing basic borrowing and returning functionalities
 
 Core Entities:
 --------------
